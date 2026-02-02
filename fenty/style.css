@@ -1,0 +1,320 @@
+.progja-fenty {
+  background-color: #ffffff;
+  width: 1536px;
+  min-height: auto;
+  position: relative;
+}
+
+.progja-fenty .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1536px;
+  height: 4503px;
+  background: linear-gradient(
+    180deg,
+    rgba(114, 160, 210, 1) 0%,
+    rgba(112, 156, 205, 1) 8%,
+    rgba(124, 164, 208, 1) 9%,
+    rgba(138, 178, 216, 1) 11%,
+    rgba(146, 188, 228, 1) 14%,
+    rgba(163, 194, 215, 1) 17%,
+    rgba(97, 140, 174, 0.79) 19%,
+    rgba(211, 206, 187, 1) 20%,
+    rgba(203, 203, 181, 1) 100%
+  );
+}
+
+.progja-fenty .div {
+  position: absolute;
+  top: 264px;
+  left: 1229px;
+  width: 307px;
+  height: 726px;
+  background: linear-gradient(
+    180deg,
+    rgba(112, 156, 206, 1) 0%,
+    rgba(143, 183, 219, 1) 32%,
+    rgba(163, 200, 227, 1) 52%,
+    rgba(197, 201, 204, 1) 67%,
+    rgba(237, 173, 38, 1) 83%,
+    rgba(158, 155, 138, 1) 88%,
+    rgba(190, 188, 176, 1) 95%,
+    rgba(211, 206, 187, 1) 100%
+  );
+}
+
+.progja-fenty .rectangle-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1536px;
+  height: 151px;
+  background-color: #f5e6ca;
+}
+
+.progja-fenty .text-wrapper {
+  position: absolute;
+  top: 39px;
+  left: 464px;
+  width: 607px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.progja-fenty .img {
+  position: absolute;
+  top: 298px;
+  left: 113px;
+  width: 1310px;
+  height: 686px;
+  aspect-ratio: 1.91;
+  object-fit: cover;
+}
+
+.progja-fenty .union {
+  position: absolute;
+  top: 313px;
+  left: 129px;
+  width: 1281px;
+  height: 264px;
+}
+
+.progja-fenty .kereta-api-merupakan {
+  position: absolute;
+  top: 399px;
+  left: 184px;
+  width: 1168px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.progja-fenty .text-wrapper-2 {
+  position: absolute;
+  top: 327px;
+  left: 590px;
+  width: 356px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.progja-fenty .img-2 {
+  position: absolute;
+  top: 1134px;
+  left: 647px;
+  width: 776px;
+  height: 518px;
+  aspect-ratio: 1.5;
+  object-fit: cover;
+}
+
+.progja-fenty .text-wrapper-3 {
+  position: absolute;
+  top: 1248px;
+  left: 113px;
+  width: 518px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.progja-fenty .p {
+  position: absolute;
+  top: 1325px;
+  left: 113px;
+  width: 518px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.progja-fenty .img-3 {
+  position: absolute;
+  top: 1802px;
+  left: 114px;
+  width: 646px;
+  height: 699px;
+  aspect-ratio: 0.92;
+}
+
+.progja-fenty .text-wrapper-4 {
+  position: absolute;
+  top: 1900px;
+  left: 776px;
+  width: 647px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.progja-fenty .selalu-dalam {
+  position: absolute;
+  top: 2037px;
+  left: 776px;
+  width: 647px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.progja-fenty .img-4 {
+  position: absolute;
+  top: 2659px;
+  left: 776px;
+  width: 647px;
+  height: 862px;
+  aspect-ratio: 0.75;
+  object-fit: cover;
+}
+
+.progja-fenty .sikap-dan-perilaku {
+  position: absolute;
+  top: 2651px;
+  left: 113px;
+  width: 647px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.progja-fenty .jaga-ketenangan {
+  position: absolute;
+  top: 2789px;
+  left: 113px;
+  width: 647px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.progja-fenty .img-5 {
+  position: absolute;
+  top: 3679px;
+  left: 113px;
+  width: 647px;
+  height: 668px;
+  aspect-ratio: 0.97;
+}
+
+.progja-fenty .text-wrapper-5 {
+  position: absolute;
+  top: 3683px;
+  left: 776px;
+  width: 647px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.progja-fenty .patuhi-rambu-dan {
+  position: absolute;
+  top: 3911px;
+  left: 776px;
+  width: 647px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+/* Original CSS code should be injected here */
+
+.progja-fenty .kereta-api-section {
+  position: relative;
+}
+
+.progja-fenty .stasiun-section {
+  position: relative;
+}
+
+.progja-fenty .sikap-stasiun-section {
+  position: relative;
+}
+
+.progja-fenty .sikap-kereta-section {
+  position: relative;
+}
+
+.progja-fenty .perlintasan-section {
+  position: relative;
+}
+
+.progja-fenty header {
+  position: relative;
+}
+
+.progja-fenty .selalu-dalam p {
+  margin-bottom: 12px;
+}
+
+.progja-fenty .selalu-dalam p:last-child {
+  margin-bottom: 0;
+}
+
+.progja-fenty .jaga-ketenangan p {
+  margin-bottom: 12px;
+}
+
+.progja-fenty .jaga-ketenangan p:last-child {
+  margin-bottom: 0;
+}
+
+.progja-fenty .patuhi-rambu-dan p {
+  margin-bottom: 12px;
+}
+
+.progja-fenty .patuhi-rambu-dan p:last-child {
+  margin-bottom: 0;
+}
+
+.progja-fenty .selalu-dalam strong,
+.progja-fenty .jaga-ketenangan strong,
+.progja-fenty .patuhi-rambu-dan strong {
+  font-weight: 700;
+}

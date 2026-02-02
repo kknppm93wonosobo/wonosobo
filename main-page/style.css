@@ -1,0 +1,528 @@
+.main-page {
+  background-color: #f0f0f0;
+  width: 1536px;
+  min-height: auto;
+  position: relative;
+}
+
+.main-page .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1536px;
+  height: 8367px;
+  background-color: #f0f0f0;
+}
+
+.main-page .peta-resmi {
+  position: absolute;
+  top: 7083px;
+  left: 0;
+  width: 1536px;
+  height: 1086px;
+  aspect-ratio: 1.41;
+  object-fit: cover;
+}
+
+.main-page .text-wrapper {
+  position: absolute;
+  top: 7000px;
+  left: 0;
+  width: 1536px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .instagram-icon {
+  position: absolute;
+  top: 6280px;
+  left: 380px;
+  width: 320px;
+  height: 200px;
+  aspect-ratio: 1;
+  opacity: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.main-page .tiktok-icon {
+  position: absolute;
+  top: 6280px;
+  left: 780px;
+  width: 320px;
+  height: 200px;
+  aspect-ratio: 1;
+  opacity: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.main-page .instagram-icon,
+.main-page .tiktok-icon {
+  position: absolute;
+  object-fit: cover;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0);
+  transition: opacity 0.4s ease-out, visibility 0.4s, transform 0.4s ease-out;
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+}
+
+.main-page .team-section:hover + .instagram-tiktok .instagram-icon,
+.main-page .team-section:hover + .instagram-tiktok .tiktok-icon,
+.main-page .instagram-tiktok:hover .instagram-icon,
+.main-page .instagram-tiktok:hover .tiktok-icon {
+  opacity: 0.5;
+  visibility: visible;
+  transform: scale(1);
+  animation: popIn 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.main-page .instagram-icon:hover,
+.main-page .tiktok-icon:hover {
+  transform: scale(1.1) !important;
+  opacity: 1 !important;
+  border-radius: 20px;
+}
+
+.main-page .MEET-OUR-TEAM {
+  position: absolute;
+  top: 6267px;
+  left: 0;
+  width: 1536px;
+  height: 667px;
+  aspect-ratio: 2.3;
+  object-fit: cover;
+}
+
+.main-page .video {
+  position: absolute;
+  top: 151px;
+  left: 0;
+  width: 1536px;
+  height: 860px;
+  aspect-ratio: 1.79;
+  object-fit: cover;
+}
+
+.main-page .lokasi {
+  position: absolute;
+  top: 558px;
+  left: 0;
+  width: 1511px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24.2px;
+  white-space: nowrap;
+}
+
+.main-page .sambutan {
+  position: absolute;
+  top: 497px;
+  left: 0;
+  width: 1511px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .rectangle-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1536px;
+  height: 151px;
+  background-color: #2c3e50;
+  transition: transform 0.3s ease;
+}
+
+.main-page .rectangle-1:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.main-page .text-wrapper-2 {
+  position: absolute;
+  top: 39px;
+  left: 0;
+  width: 1536px;
+  height: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .text-wrapper-3 {
+  position: absolute;
+  top: 5918px;
+  left: 0;
+  width: 1536px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .progja-vania-card {
+  position: absolute;
+  top: 6001px;
+  left: 793px;
+  width: 186px;
+  height: 212px;
+  aspect-ratio: 0.88;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-page .progja-vania-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.main-page .progja-willydea-card {
+  position: absolute;
+  top: 6001px;
+  left: 1265px;
+  width: 186px;
+  height: 212px;
+  aspect-ratio: 0.88;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-page .progja-willydea-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.main-page .progja-diman-card {
+  position: absolute;
+  top: 6001px;
+  left: 85px;
+  width: 186px;
+  height: 212px;
+  aspect-ratio: 0.88;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-page .progja-diman-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.main-page .progja-fenty-card {
+  position: absolute;
+  top: 6001px;
+  left: 557px;
+  width: 186px;
+  height: 212px;
+  aspect-ratio: 0.88;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-page .progja-fenty-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.main-page .progja-menyuk-card {
+  position: absolute;
+  top: 6001px;
+  left: 1029px;
+  width: 186px;
+  height: 212px;
+  aspect-ratio: 0.88;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-page .progja-menyuk-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.main-page .progja-asopa-card {
+  position: absolute;
+  top: 6001px;
+  left: 321px;
+  width: 186px;
+  height: 212px;
+  aspect-ratio: 0.88;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-page .progja-asopa-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.main-page .text-wrapper-4 {
+  position: absolute;
+  top: 2989px;
+  left: 601px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .text-wrapper-5 {
+  position: absolute;
+  top: 1130px;
+  left: 406px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .text-wrapper-6 {
+  position: absolute;
+  top: 2078px;
+  left: 264px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .text-wrapper-7 {
+  position: absolute;
+  top: 1226px;
+  left: 721px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .text-wrapper-8 {
+  position: absolute;
+  top: 1395px;
+  left: 715px;
+  width: 106px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .text-wrapper-9 {
+  position: absolute;
+  top: 1287px;
+  left: 140px;
+  width: 1256px;
+  font-family: "Lemonada-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .visi-rec {
+  position: absolute;
+  top: 1226px;
+  left: 100px;
+  width: 1336px;
+  height: 130px;
+  background-color: #fafafa;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-page .element-mewujudkan-dan {
+  position: absolute;
+  top: 1456px;
+  left: 140px;
+  width: 1256px;
+  font-family: "Lemonada-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main-page .misi-rec {
+  position: absolute;
+  top: 1395px;
+  left: 100px;
+  width: 1336px;
+  height: 510px;
+  background-color: #fafafa;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-page .visi-misi-rec {
+  position: absolute;
+  top: 1120px;
+  left: 64px;
+  width: 1408px;
+  height: 820px;
+  background: #80F5B8;
+  background: linear-gradient(-76deg, rgba(128, 245, 184, 1) 0%, rgba(179, 238, 132, 1) 100%);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-page .image {
+  position: absolute;
+  top: 2136px;
+  left: 64px;
+  width: 1408px;
+  height: 683px;
+  aspect-ratio: 2.07;
+  object-fit: cover;
+}
+
+.main-page .piechart {
+  position: absolute;
+  top: 5207px;
+  left: 461px;
+  width: 600px;
+  height: 400px;
+}
+
+.main-page .piechart-rec {
+  position: absolute;
+  top: 5207px;
+  left: 100px;
+  width: 1336px;
+  height: 630px;
+  background-color: #fafafa;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-page .barlinechart {
+  position: absolute;
+  top: 3112px;
+  left: 119px;
+  width: 1297px;
+  height: 819px;
+}  
+
+.main-page .barlinechart-rec {
+  position: absolute;
+  top: 3112px;
+  left: 100px;
+  width: 1336px;
+  height: 680px;
+  background-color: #fafafa;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}  
+
+.main-page .radialchart {
+  position: absolute;
+  top: 3901px;
+  left: 528px;
+  width: 480px;
+  height: 480px;
+}    
+
+.main-page .radialchart-rec {
+  position: absolute;
+  top: 3901px;
+  left: 100px;
+  width: 1336px;
+  height: 480px;
+  background-color: #fafafa;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-page .barlinechart1 {
+  position: absolute;
+  top: 4471px;
+  left: 153px;
+  width: 1230px;
+  height: 600px;
+}      
+
+.main-page .barlinechart1-rec {
+  position: absolute;
+  top: 4471px;
+  left: 100px;
+  width: 1336px;
+  height: 640px;
+  background-color: #fafafa;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-page .data-penduduk-rec {
+  position: absolute;
+  top: 2969px;
+  left: 64px;
+  width: 1408px;
+  height: 2900px;
+  background: #80F5B8;
+  background: linear-gradient(-76deg, rgba(128, 245, 184, 1) 0%, rgba(179, 238, 132, 1) 100%);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

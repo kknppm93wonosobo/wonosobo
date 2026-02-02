@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Peta Potensi dan Informasi Pekon Wonosobo, Kecamatan Wonosobo, Kabupaten Tanggamus, Provinsi Lampung"
+    />
+    <title>Pekon Wonosobo</title>
+    <link rel="stylesheet" href="/main-page/globals.css" />
+    <link rel="stylesheet" href="/main-page/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/page-transition.js"></script>
+  </head>
+  <body>
+    <main class="main-page">
+      <div class="rectangle" role="presentation" aria-hidden="true"></div>
+      <a href="https://wonosobo.tanggamus.go.id/" target="_blank">
+        <header class="rectangle-1">
+          <h1 class="text-wrapper-2">Pekon Wonosobo</h1>
+        </header>
+      </a>
+      <section class="hero-section" style="position: relative;">
+        <video id="progja-diman" class="video" style="pointer-events: none;" loop>
+          <source src="/img/VIDEO-PROFIL.mp4" type="video/mp4">
+        </video>
+        <div id="video-overlay" style="position: absolute; top: 150px; left: 0; width: 1536px; height: 810px; cursor: pointer;"></div>
+        <div id="video-controls" style="position: absolute; top: 960px; left: 0; width: 1536px; background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); padding: 10px 20px; box-sizing: border-box; z-index: 10;">
+          <div id="progress-bar-container" style="width: 100%; height: 5px; background-color: rgba(255, 255, 255, 0.3); cursor: pointer; border-radius: 3px; margin-bottom: 8px;">
+            <div id="progress-bar" style="width: 0%; height: 100%; background-color: #ff0000; transition: width 0.1s linear; border-radius: 3px;"></div>
+          </div>
+          <div id="time-display" style="color: white; font-size: 14px; font-family: Arial, sans-serif;">
+            <span id="current-time">0:00</span> / <span id="duration">0:00</span>
+          </div>
+        </div>
+        <style>
+          #progja-diman.paused {
+            filter: blur(5px);
+          }
+          .sambutan.hidden, .lokasi.hidden {
+            display: none;
+          }
+        </style>
+        <script src="/main-page/video-controls.js"></script>
+        <h2 class="sambutan">Selamat Datang di Pekon Wonosobo</h2>
+        <p class="lokasi">Kecamatan Wonosobo, Kabupaten Tanggamus, Provinsi Lampung</p>
+      </section>
+      <section class="vision-mission-section">
+        <canvas class="visi-misi-rec"></canvas>
+        <h2 class="text-wrapper-5">Visi dan Misi Pekon Wonosobo</h2>
+        <canvas class="visi-rec"></canvas>
+        <article class="vision-content">
+          <h3 class="text-wrapper-7">Visi</h3>
+          <p class="text-wrapper-9">
+            "Bersama membangun pekon melalui tata kelola pemerintahan yang bersih, transparan akuntable dan partisipatif
+            menuju pekon yang maju, mandiri dan berbudaya berlandaskan akhlakul kharimah"
+          </p>
+        </article>
+        <article class="mission-content">
+          <canvas class="misi-rec"></canvas>
+          <h3 class="text-wrapper-8">Misi</h3>
+          <p class="element-mewujudkan-dan">
+            1. Mewujudkan dan meningkatkan serta meneruskan tata kelola pemerintahan pekon yang lebih baik;<br />2.
+            Meningkatkan pelayanan yang maksimal kepada masyarakat pekon dan daya saing pekon<br />3. Mewujudkan
+            kepemimpinan yang baik,bijaksan,tegas dan berwibawa<br />4. Mewujudkan keamanan dan ketertiban dilingkungan
+            pekon wonosobo<br />5. Meningkatkan kesehatan,kebersihan pekon serta mengusahakan jaminan kesehatan
+            masyarakat melalui program pemerintah<br />6. Meningkatkan kesejahteraan masyarakat pekon dan mewujudkan
+            badan usaha milik desa (BUMDES)dll untuk membuka lapangan kerja bagi masyarakat Pekon Wonosobo<br />7.
+            Meningkatkan sarana dan perasarana dari segi fisik,ekonomi,pendidikan,kesehatan,olahraga dan kebudayaan
+            dipekon<br />8. Meningkatkan kehidupan sosial yang harmonis,toleran,saling menghormati dan kehidupan
+            berbudaya berlandaskan keimanan dan ketakwaan dipekon wonosobo<br />9. Mengedepankan kejujuran,keadilan
+            transparasi dalam kehidupan sehari-hari dalam pemerintahan maupun dengan masyarakat pekon<br />10.
+            Memelihara keseimbangan lingkungan dan pembangunan yang berkelanjutan dan memanfaatkan sumber daya alam
+            untuk mewujudkan lingkungan yang bersih dan sehat.
+          </p>
+        </article>
+      </section>
+      <section class="government-structure-section">
+        <h2 class="text-wrapper-6">Struktur Pemerintahan Pekon Wonosobo</h2>
+        <img class="image" src="/img/image-1.png" alt="Struktur Organisasi Pemerintahan Pekon Wonosobo" />
+      </section>
+      <section class="population-data-section">
+        <canvas class="data-penduduk-rec"></canvas>
+        <h2 class="text-wrapper-4">Data Penduduk</h2>
+        <div class="chart-container">
+          <div>
+            <canvas class="barlinechart-rec"></canvas>
+          </div>
+          <canvas id="barlinechart" class="barlinechart"></canvas>
+        </div>
+        <div class="chart-container">
+          <div>
+            <canvas class="radialchart-rec"></canvas>
+          </div>
+          <canvas id="radialchart" class="radialchart"></canvas>
+        </div>
+        <div class="chart-container">
+          <div>
+            <canvas class="piechart-rec"></canvas>
+          </div>
+          <canvas id="piechart" class="piechart"></canvas>
+        </div>
+        <div class="chart-container">
+          <div>
+            <canvas class="barlinechart1-rec"></canvas>
+          </div>
+          <canvas id="barlinechart1" class="barlinechart1"></canvas>
+        </div>
+      </section>
+      <section class="work-program-section">
+        <h2 class="text-wrapper-3">Program Kerja KKN 93 ITERA</h2>
+        <div class="program-cards">
+          <a href="#progja-diman">
+            <img class="progja-diman-card" src="/img/progja-diman-card.png" alt="Kartu program kerja Diman" />
+          </a>
+          <a href="/asopa/index.html">
+            <img class="progja-asopa-card" src="/img/progja-asopa-card.png" alt="Kartu program kerja Asopa" />
+          </a>
+          <a href="/fenty/index.html">
+            <img class="progja-fenty-card" src="/img/progja-fenty-card.png" alt="Kartu program kerja Fenty" />
+          </a>
+          <a href="/vania/index.html">
+            <img class="progja-vania-card" src="/img/progja-vania-card.png" alt="Kartu program kerja Vania" />
+          </a>
+          <a href="/menyuk/index.html">
+            <img class="progja-menyuk-card" src="/img/progja-menyuk-card.png" alt="Kartu program kerja Menyuk" />
+          </a>
+          <a href="#progja-willydea">
+            <img class="progja-willydea-card" src="/img/progja-willydea-card.png" alt="Kartu program kerja Willydea" />
+          </a>
+        </div>
+      </section>
+      <section class="team-section">
+        <img
+        class="MEET-OUR-TEAM"
+        src="/img/MEET-OUR-TEAM.png"
+        alt="Foto tim KKN 93 Wonosobo - Klik untuk mengunjungi Instagram"
+        />
+      </section>
+      <section class="instagram-tiktok">
+        <a 
+          href="https://www.instagram.com/kkn93.wonosobo/"
+          target="_blank"
+        >
+          <img
+              class="instagram-icon" src="/img/instagram-icon.png"
+          />
+        </a>
+        <a 
+          href="https://www.tiktok.com/@kkn.wonosobo93?lang=id-ID"
+          target="_blank"
+        >
+          <img
+            class="tiktok-icon" src="/img/tiktok-icon.png"
+          />
+        </a>  
+      </section>
+      <section class="map-section">
+        <h2 id="progja-willydea" class="text-wrapper">Peta Potensi Pekon Wonosobo</h2>
+        <img class="peta-resmi" src="/img/peta-resmi.png" alt="Peta resmi potensi Pekon Wonosobo" />
+      </section>
+    </main>
+    <script src="/main-page/chart-init.js"></script>
+    <script src="/responsive.js"></script>
+  </body>
+</html>

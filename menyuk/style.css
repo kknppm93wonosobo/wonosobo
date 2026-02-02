@@ -1,0 +1,38 @@
+.progja-menyuk {
+  background-color: #f0f0f0;
+  width: 1536px;
+  min-height: auto;
+  position: relative;
+}
+
+.progja-menyuk .CUCI-MENUK-page {
+  position: absolute;
+  top: 151px;
+  left: 0;
+  width: 1536px;
+  height: 2171px;
+  aspect-ratio: 0.71;
+  object-fit: cover;
+}
+
+.progja-menyuk .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1536px;
+  height: 151px;
+  background-color: #f5e6ca;
+}
+
+.progja-menyuk .text-wrapper {
+  position: absolute;
+  top: 39px;
+  left: 679px;
+  font-family: "Montserrat-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}

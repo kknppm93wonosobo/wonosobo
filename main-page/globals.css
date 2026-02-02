@@ -1,0 +1,45 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+  overflow-y: auto;
+  max-width: 100vw;
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: visible;
+  overflow-x: hidden !important;
+  max-width: 100vw;
+  width: 100%;
+  position: relative;
+  min-height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+/* Smooth Page Transition Animations */
+body {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+body.fade-in {
+  opacity: 1;
+}
+
+body.fade-out {
+  opacity: 0;
+}
